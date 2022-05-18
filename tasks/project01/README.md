@@ -9,6 +9,8 @@ Tratando-se de duas bases de dados diferentes, uma com os valores mês a mês da
 
 O resultado da análise pode ser visualizado através do gráfico desenvolvido, contendo o comparativo da relação de preços cesta básica / salário-mínimo ao longo dos últimos governos brasileiros. O gráfico está disponível no seguinte [dashboard](https://share.streamlit.io/jota-emi/mlops-2022/main/tasks/project01/app_streamlit.py), assim como na imagem abaixo:
 
+<img src="https://github.com/jota-emi/mlops-2022/blob/main/tasks/project01/grafico.png?raw=true" alt="graph"/>
+
 ### Ferramentas Utilizadas
 - pandas
 - matplotlib
