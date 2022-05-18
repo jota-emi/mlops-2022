@@ -15,6 +15,12 @@ from datetime import datetime
 import pandas as pd
 from matplotlib import style
 import matplotlib.pyplot as plt
+import streamlit as st
+from pathlib import Path
+
+cesta_basica_csv = Path(__file__).parents[1] / 'cesta_basica.csv'
+salario_minimo_csv = Path(__file__).parents[1] / 'salario_minimo.csv'
+
 
 
 # configurando o logging
@@ -75,7 +81,7 @@ def apply_datetime(df_file, date_column, original_format):
 
 # Cleaning Datasets
 # Salario minimo
-salario_minimo = read_data('salario_minimo.csv')
+salario_minimo = read_data(salario_minimo_csv)
 salario_minimo.rename(columns={
     'Salário mínimo vigente - R$ - ' +
     'Ministério da Economia- Outras (Min- Economia/Outras) - MTE12_SALMIN12': 'Salario_minimo',
@@ -86,7 +92,7 @@ salario_minimo = salario_minimo.drop(columns=['Unnamed: 2'])
 salario_minimo = apply_datetime(salario_minimo, 'Data', '%Y-%m')
 
 # Cesta básica
-cesta_basica = read_data('cesta_basica.csv')
+cesta_basica = read_data(cesta_basica_csv)
 cesta_basica.rename(columns={'Gasto Mensal - Total da Cesta': 'Data',
                              },
                     inplace=True)
@@ -236,7 +242,7 @@ ax4.text(11500.0, 0.22, 'Autor: João Marcos Viana' + ' '*115 + 'Fonte: DIESSE',
 #plt.savefig('salario_cesta_governos.png', format='png')
 # plt.show()
 
-import streamlit as st
+
 
 st.sidebar.title("Menu")
 paginaSelecionada = st.sidebar.selectbox("Selecione a página", ['Página Inicial', 'Sobre'])
