@@ -81,7 +81,7 @@ def apply_datetime(df_file, date_column, original_format):
 
 # Cleaning Datasets
 # Salario minimo
-salario_minimo = read_data(salario_minimo_csv)
+salario_minimo = read_data('https://raw.githubusercontent.com/jota-emi/mlops-2022/main/tasks/project01/salario_minimo.csv')
 salario_minimo.rename(columns={
     'Salário mínimo vigente - R$ - ' +
     'Ministério da Economia- Outras (Min- Economia/Outras) - MTE12_SALMIN12': 'Salario_minimo',
@@ -92,7 +92,7 @@ salario_minimo = salario_minimo.drop(columns=['Unnamed: 2'])
 salario_minimo = apply_datetime(salario_minimo, 'Data', '%Y-%m')
 
 # Cesta básica
-cesta_basica = read_data(cesta_basica_csv)
+cesta_basica = read_data('https://raw.githubusercontent.com/jota-emi/mlops-2022/main/tasks/project01/cesta_basica.csv')
 cesta_basica.rename(columns={'Gasto Mensal - Total da Cesta': 'Data',
                              },
                     inplace=True)
