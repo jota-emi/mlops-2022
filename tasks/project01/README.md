@@ -19,3 +19,6 @@ O resultado da análise pode ser visualizado através do gráfico desenvolvido, 
 - pytest
 - pylint
 - autopep8
+
+### Video explicativo
+- [Link](https://youtu.be/7FJW4X95Hjc)
