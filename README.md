@@ -35,7 +35,7 @@ In this section are available all links to my DataQuest certificates.
 - [Conditional Probability]
 - [Hypothesis Testing: Fundamentals]
 ### Machine Learning Introduction
-- [Machine Learning Fundamentals]
+- [Machine Learning Fundamentals](https://app.dataquest.io/verify_cert/9MQ3WHP0ELXR0QCA9LY4/)
 - [Calculus For Machine Learning]
 - [Linear Algebra For Machine Learning]
 - [Linear Regression For Machine Learning]
@@ -48,3 +48,6 @@ In this section are available all links to my DataQuest certificates.
 ### Advanced Topics in Data Science
 - [Functions: Advanced](https://app.dataquest.io/verify_cert/F3VQDY0FY7DKBLWFRZKJ/)
 - [Git and Version Control](https://app.dataquest.io/verify_cert/FKC0H2W2RGRI097DC10M/)
+
+### Data Engineer
+- [Building a Data Pipeline](https://app.dataquest.io/verify_cert/7E0QU13KJ04HYRQ7PKMC/)
