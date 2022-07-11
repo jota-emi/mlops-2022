@@ -1,0 +1,2 @@
+Artifact uploaded, use this artifact in a run by adding:
+    artifact = run.use_artifact("jotaemi/mlops_project_etl/raw_data.csv:latest")

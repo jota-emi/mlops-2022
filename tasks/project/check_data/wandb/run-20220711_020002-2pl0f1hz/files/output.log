@@ -1,0 +1,44 @@
+======================================================== test session starts ========================================================
+platform win32 -- Python 3.9.13, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\j_mar\anaconda3\envs\mlflow-959bb272d47f76e4e40a52608a2bb126b2b20079\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\j_mar\Desktop\mlops-2022\tasks\project\check_data
+collected 2 items
+test_data.py::test_column_presence_and_type <class 'pandas.core.frame.DataFrame'>
+PASSED
+test_data.py::test_column_ranges FAILED
+============================================================= FAILURES ==============================================================
+________________________________________________________ test_column_ranges _________________________________________________________
+data =        host_listings_count  review_scores_rating neighbourhood_cleansed  ... number_of_reviews   latitude  longitude
+0....0              4.620987            São Conrado  ...                 0 -22.994539 -43.258093
+[24527 rows x 15 columns]
+    def test_column_ranges(data):
+        # Disregard the reference dataset
+        df = data
+        ranges = {
+            "price": (1, 1000000),
+            "beds": (0, 30),
+            "bathrooms_text": (0, 30),
+            "accommodates": (1, 99999),
+        }
+        for col_name, (minimum, maximum) in ranges.items():
+>           assert df[col_name].dropna().between(minimum, maximum).all(), (
+                f"Column {col_name} failed the test. Should be between {minimum} and {maximum}, "
+                f"instead min={df[col_name].min()} and max={df[col_name].max()}"
+            )
+E           AssertionError: Column beds failed the test. Should be between 0 and 30, instead min=0.0 and max=91.0
+E           assert False
+E            +  where False = <bound method NDFrame._add_numeric_operations.<locals>.all of 0        True\n1        True\n2        True\n3        True\n...     ... \n24522    True\n24523    True\n24524    True\n24525    True\n24526    True\nName: beds, Length: 24527, dtype: bool>()
+E            +    where <bound method NDFrame._add_numeric_operations.<locals>.all of 0        True\n1        True\n2        True\n3        True\n...     ... \n24522    True\n24523    True\n24524    True\n24525    True\n24526    True\nName: beds, Length: 24527, dtype: bool> = 0        True\n1        True\n2        True\n3        True\n4        True\n         ... \n24522    True\n24523    True\n24524    True\n24525    True\n24526    True\nName: beds, Length: 24527, dtype: bool.all
+E            +      where 0        True\n1        True\n2        True\n3        True\n4        True\n         ... \n24522    True\n24523    True\n24524    True\n24525    True\n24526    True\nName: beds, Length: 24527, dtype: bool = <bound method Series.between of 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24522    8.0\n24523    2.0\n24524    4.0\n24525    8.0\n24526    2.0\nName: beds, Length: 24527, dtype: float64>(0, 30)
+E            +        where <bound method Series.between of 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24522    8.0\n24523    2.0\n24524    4.0\n24525    8.0\n24526    2.0\nName: beds, Length: 24527, dtype: float64> = 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24522    8.0\n24523    2.0\n24524    4.0\n24525    8.0\n24526    2.0\nName: beds, Length: 24527, dtype: float64.between
+E            +          where 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24522    8.0\n24523    2.0\n24524    4.0\n24525    8.0\n24526    2.0\nName: beds, Length: 24527, dtype: float64 = <bound method Series.dropna of 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24522    8.0\n24523    2.0\n24524    4.0\n24525    8.0\n24526    2.0\nName: beds, Length: 24527, dtype: float64>()
+E            +            where <bound method Series.dropna of 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24522    8.0\n24523    2.0\n24524    4.0\n24525    8.0\n24526    2.0\nName: beds, Length: 24527, dtype: float64> = 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24522    8.0\n24523    2.0\n24524    4.0\n24525    8.0\n24526    2.0\nName: beds, Length: 24527, dtype: float64.dropna
+test_data.py:50: AssertionError
+========================================================= warnings summary ==========================================================
+..\..\..\..\..\anaconda3\envs\mlflow-959bb272d47f76e4e40a52608a2bb126b2b20079\lib\site-packages\win32\lib\pywintypes.py:2
+  C:\Users\j_mar\anaconda3\envs\mlflow-959bb272d47f76e4e40a52608a2bb126b2b20079\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+    import imp, sys, os
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+====================================================== short test summary info ======================================================
+FAILED test_data.py::test_column_ranges - AssertionError: Column beds failed the test. Should be between 0 and 30, instead min=0.0 ...
+============================================== 1 failed, 1 passed, 1 warning in 5.50s ===============================================

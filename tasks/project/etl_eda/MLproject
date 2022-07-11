@@ -1,0 +1,7 @@
+name: mlops_project
+conda_env: enviroment.yml
+
+entry_points:
+  main:
+    command: >-
+      jupyter-lab

@@ -1,0 +1,23 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-04T12:46:02.596370",
+    "startedAt": "2022-07-04T12:45:59.010828",
+    "docker": null,
+    "gpu": "NVIDIA GeForce MX110",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "EDA.ipynb",
+    "root": "C:/Users/j_mar/Desktop/mlops-2022",
+    "git": {
+        "remote": "https://github.com/jota-emi/mlops-2022.git",
+        "commit": "71e0738593e9faa74e8af7374100e6294a942e1a"
+    },
+    "email": "jmvsspfc@gmail.com",
+    "host": "DESKTOP-N85JR6F",
+    "username": "j_mar",
+    "executable": "C:\\Users\\j_mar\\anaconda3\\envs\\mlflow-3fbee30c8e205e7f1bddb9abff166a829a9b10e1\\python.exe"
+}

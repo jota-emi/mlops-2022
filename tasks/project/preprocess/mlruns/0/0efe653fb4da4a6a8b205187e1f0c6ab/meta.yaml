@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/j_mar/Desktop/mlops-2022/tasks/project/preprocess/mlruns/0/0efe653fb4da4a6a8b205187e1f0c6ab/artifacts
+end_time: 1657513125158
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 0efe653fb4da4a6a8b205187e1f0c6ab
+run_uuid: 0efe653fb4da4a6a8b205187e1f0c6ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1657513114205
+status: 4
+tags: []
+user_id: j_mar

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/j_mar/Desktop/mlops-2022/tasks/project/etl_eda/mlruns/0/df8ca463353c47a0bafb7dc4aa9ef43b/artifacts
+end_time: 1656940048747
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: df8ca463353c47a0bafb7dc4aa9ef43b
+run_uuid: df8ca463353c47a0bafb7dc4aa9ef43b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1656937599383
+status: 4
+tags: []
+user_id: j_mar

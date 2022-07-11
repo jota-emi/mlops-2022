@@ -1,0 +1,14 @@
+======================================================== test session starts ========================================================
+platform win32 -- Python 3.9.13, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\j_mar\anaconda3\envs\mlflow-959bb272d47f76e4e40a52608a2bb126b2b20079\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\j_mar\Desktop\mlops-2022\tasks\project\check_data
+collected 2 items
+test_data.py::test_column_presence_and_type <class 'pandas.core.frame.DataFrame'>
+PASSED
+test_data.py::test_column_ranges PASSED
+========================================================= warnings summary ==========================================================
+..\..\..\..\..\anaconda3\envs\mlflow-959bb272d47f76e4e40a52608a2bb126b2b20079\lib\site-packages\win32\lib\pywintypes.py:2
+  C:\Users\j_mar\anaconda3\envs\mlflow-959bb272d47f76e4e40a52608a2bb126b2b20079\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+    import imp, sys, os
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================================================== 2 passed, 1 warning in 4.83s ====================================================
