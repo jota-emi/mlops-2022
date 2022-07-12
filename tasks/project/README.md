@@ -17,11 +17,11 @@ Para cada etapa do pipeline teremos alguns arquivos de configuração, são eles
 
 O modelo idealizado de arquitetura do pipeline pode ser visualizado na imagem abaixo, disponibilizado também pelo professor no [repositório](https://github.com/ivanovitchm/mlops).
 
-Imagem
+[<img src="https://github.com/jota-emi/mlops-2022/blob/main/tasks/project/images/pipeline.PNG?raw=true">](http://google.com.au/)
 
 Através de sua interface web, o Wandb possui também uma forma de visualização e organização que nos permite visualizar a linearidade obtida durante todo o fluxo dos dados. Nos proporcionando assim uma visão geral de como ficou o pipeline ao final das etapas. Podemos ver o resultado final obtido na imagem abaixo.
 
-Imagem
+[<img src="https://github.com/jota-emi/mlops-2022/blob/main/tasks/project/images/wandb.PNG?raw=true">](http://google.com.au/)
 
 ## Passo 1 - ETL/EDA
 ### Download raw_data.csv
