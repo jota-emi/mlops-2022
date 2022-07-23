@@ -1,6 +1,6 @@
 # Construindo um pipeline para ETL, checagem e segregação de dados
 
-Neste projeto, o objetivo é aplicar as habilidades adquiridas durante a semana 8 do curso de [MLOps](https://github.com/ivanovitchm/mlops) ministrado pelo professor Ivanovitch Medeiros na Universidade Federal do Rio Grande do Norte, visando desenvolver as primeiras três etapas da produção de um modelo de regressão para previsão do preço de alugueis do Airbnb na cidade do Rio de Janeiro. Dados disponibilizados pelo professor publicamente através deste [link](https://drive.google.com/file/d/16zF4MHEP_bBxAEWpQgVocPupTjRRAgfP/view?usp=sharing).
+Neste projeto, o objetivo é aplicar as habilidades adquiridas durante as semanas 8, 9 e 10 do curso de [MLOps](https://github.com/ivanovitchm/mlops) ministrado pelo professor Ivanovitch Medeiros na Universidade Federal do Rio Grande do Norte, visando desenvolver todas as etapas da produção de um modelo de regressão para previsão do preço de alugueis do Airbnb na cidade do Rio de Janeiro. Dados disponibilizados pelo professor publicamente através deste [link](https://drive.google.com/file/d/16zF4MHEP_bBxAEWpQgVocPupTjRRAgfP/view?usp=sharing).
 
 ## Principais ferramentas utilizadas
 - Pandas
