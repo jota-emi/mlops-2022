@@ -46,5 +46,11 @@ Além dos arquivos padrões de configuração, nesta etapa fez-se necessária ta
 Após garantirmos que os dados estão prontos para serem utilizados em produção, é hora de realizar a divisão dos dados em dados de treinamento e dados de teste. Para isso, foi utilizada a função train_test_split da biblioteca do sklearn. A proporção desta divisão, assim como outros parâmetros são determinados pelo usuário no momento da chamada do mlflow.
 Ao final desta etapa, dois novos artefatos serão gerados no Wandb, eles foram chamados de "test_data.csv" e "train_data.csv".
 
+## Passo 4 - Treinamento
+Partindo para a etapa de treinamento em si, foi criado um pipeline que irá fazer mais alguns processamentos nos dados de treino, eliminando outliers e lidando com variáveis categóricas, diminuindo a quantidade de categorias por coluna. Os dados foram ainda divididos em treinamento e validação. O restante do pipeline conta com o treinamento do modelo de Decision Tree para Regressão. Ao final desta etapa, o modelo será exportado para o Wandb.
+
+## Passo 5 - Avaliação
+Feito o treinamento, a última etapa é de avaliação das métricas do modelo. Como trata-se de um modelo de regressão, foram utilizadas as métricas do Mean Absolute Error (MAE), Mean Squared Error (MSE) e R Squared(R2). Tais resultados ficam salvos no Wandb.
+
 ### Link do vídeo explicativo
 [Video]()
