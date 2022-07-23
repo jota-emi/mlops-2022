@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/j_mar/Desktop/mlops-2022/tasks/project/segregate/mlruns/0/ca60f7e2ca3a4a88a936caf409c3f94a/artifacts
+end_time: 1657515994675
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: ca60f7e2ca3a4a88a936caf409c3f94a
+run_uuid: ca60f7e2ca3a4a88a936caf409c3f94a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1657515901030
+status: 4
+tags: []
+user_id: j_mar

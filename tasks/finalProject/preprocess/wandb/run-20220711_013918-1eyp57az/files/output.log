@@ -1,0 +1,15 @@
+
+11-07-2022 01:39:23 Downloading artifact
+11-07-2022 01:39:28 Dropping duplicates
+11-07-2022 01:39:28 Dropping useless columns
+11-07-2022 01:39:28 Converting 'price' column to float
+C:\Users\j_mar\Desktop\mlops-2022\tasks\project\preprocess\run.py:57: FutureWarning: The default value of regex will change from True to False in a future version. In addition, single character regular expressions will *not* be treated as literal strings when regex=True.
+  df.price = df.price.str.replace('$', '').str.replace(',', '', regex = 'true').astype(float)
+11-07-2022 01:39:28 Deleting rows where 'price' is 0
+11-07-2022 01:39:28 Converting 'bathrooms_text' column to float
+11-07-2022 01:39:28 Transforming null rows in 'bathrooms_text' to 0
+11-07-2022 01:39:28 Transforming null rows in 'beds' to 0
+11-07-2022 01:39:28 Transforming null rows in 'bedrooms' to 0
+11-07-2022 01:39:28 Transforming null rows in 'review_scores_rating' to mean value
+11-07-2022 01:39:28 Deleting restant rows that contains some null value
+11-07-2022 01:39:29 Logging artifact

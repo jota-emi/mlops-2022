@@ -1,0 +1,30 @@
+wandb: Uploading file raw_data.csv to: "jotaemi/mlops_project_etl/raw_data.csv:latest" (raw_data)
+wandb: Currently logged in as: jotaemi. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.12.20
+wandb: Run data is saved locally in C:\Users\j_mar\Desktop\mlops-2022\tasks\project\etl_eda\wandb\run-20220704_094933-2ws9rh5e
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run vivid-planet-2
+wandb:  View project at https://wandb.ai/jotaemi/mlops_project_etl
+wandb:  View run at https://wandb.ai/jotaemi/mlops_project_etl/runs/2ws9rh5e
+Artifact uploaded, use this artifact in a run by adding:
+    artifact = run.use_artifact("jotaemi/mlops_project_etl/raw_data.csv:latest")
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 51.903 MB of 51.903 MB uploaded (0.000 MB deduped)
+wandb: \ 51.903 MB of 51.903 MB uploaded (0.000 MB deduped)
+wandb: | 51.903 MB of 51.906 MB uploaded (0.000 MB deduped)
+wandb: / 51.903 MB of 51.906 MB uploaded (0.000 MB deduped)
+wandb: - 51.903 MB of 51.906 MB uploaded (0.000 MB deduped)
+wandb: \ 51.903 MB of 51.906 MB uploaded (0.000 MB deduped)
+wandb: | 51.903 MB of 51.906 MB uploaded (0.000 MB deduped)
+wandb: / 51.906 MB of 51.906 MB uploaded (0.000 MB deduped)
+wandb: - 51.906 MB of 51.906 MB uploaded (0.000 MB deduped)
+wandb: \ 51.906 MB of 51.906 MB uploaded (0.000 MB deduped)
+wandb: | 51.906 MB of 51.906 MB uploaded (0.000 MB deduped)
+wandb: / 51.906 MB of 51.906 MB uploaded (0.000 MB deduped)
+wandb: - 51.906 MB of 51.906 MB uploaded (0.000 MB deduped)
+wandb: \ 51.906 MB of 51.906 MB uploaded (0.000 MB deduped)
+wandb: | 51.906 MB of 51.906 MB uploaded (0.000 MB deduped)
+wandb:
+wandb: Synced vivid-planet-2: https://wandb.ai/jotaemi/mlops_project_etl/runs/2ws9rh5e
+wandb: Synced 5 W&B file(s), 0 media file(s), 1 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20220704_094933-2ws9rh5e\logs

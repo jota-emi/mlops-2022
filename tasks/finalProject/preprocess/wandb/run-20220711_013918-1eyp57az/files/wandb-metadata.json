@@ -1,0 +1,33 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-11T04:39:22.402455",
+    "startedAt": "2022-07-11T04:39:18.448165",
+    "docker": null,
+    "gpu": "NVIDIA GeForce MX110",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "jotaemi/mlops_project_etl/raw_data.csv:latest",
+        "--artifact_name",
+        "data_preprocessed.csv",
+        "--artifact_type",
+        "clean_data",
+        "--artifact_description",
+        "preprocessed"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\j_mar\\Desktop\\mlops-2022\\tasks\\project\\preprocess\\run.py",
+    "codePath": "tasks\\project\\preprocess\\run.py",
+    "git": {
+        "remote": "https://github.com/jota-emi/mlops-2022.git",
+        "commit": "71e0738593e9faa74e8af7374100e6294a942e1a"
+    },
+    "email": "jmvsspfc@gmail.com",
+    "root": "C:/Users/j_mar/Desktop/mlops-2022",
+    "host": "DESKTOP-N85JR6F",
+    "username": "j_mar",
+    "executable": "C:\\Users\\j_mar\\anaconda3\\envs\\mlflow-52328ada39e9c784d9625ce3a02ceeb9afccabfd\\python.exe"
+}

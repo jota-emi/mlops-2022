@@ -1,0 +1,33 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-04T12:45:44.379702",
+    "startedAt": "2022-07-04T12:45:40.748693",
+    "docker": null,
+    "gpu": "NVIDIA GeForce MX110",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "artifact",
+        "put",
+        "--name",
+        "mlops_project/raw_data.csv",
+        "--type",
+        "raw_data",
+        "--description",
+        "The raw data from Airbnb",
+        "raw_data.csv"
+    ],
+    "state": "running",
+    "program": "-m __main__",
+    "git": {
+        "remote": "https://github.com/jota-emi/mlops-2022.git",
+        "commit": "71e0738593e9faa74e8af7374100e6294a942e1a"
+    },
+    "email": "jmvsspfc@gmail.com",
+    "root": "C:/Users/j_mar/Desktop/mlops-2022",
+    "host": "DESKTOP-N85JR6F",
+    "username": "j_mar",
+    "executable": "C:\\Users\\j_mar\\anaconda3\\envs\\mlflow-3fbee30c8e205e7f1bddb9abff166a829a9b10e1\\python.exe"
+}
